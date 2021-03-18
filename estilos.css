@@ -1,0 +1,60 @@
+@media (min-width: 500px) {
+    body {
+        background-color: rgb(148, 37, 139);
+    }
+}
+body {
+    text-align:center ;
+   
+ }
+ input{
+     font-family: Cooper;
+     text-align: center;
+     font-size: 15px;
+     border-radius: 5px;
+ }
+ echo{
+    color: black;
+    font-family: Forte black;
+    font-size: 20px;
+ }  
+ input[id=primero] {
+     background-color: red;
+     font-weight: bold;
+     font-family: Chiller black;
+     font-size: 20px;  
+ }
+ input:hover[id=primero] {
+    background-color: rgb(0, 247, 255); 
+}
+
+ 
+ input[id=segundo] {
+    background-color: lawngreen;
+    font-family: Chiller black;
+    font-weight:bold;
+    font-size: 20px;
+}
+input:hover[id=segundo] {
+    background-color: rgb(0, 247, 255); 
+}
+input[id=tercero] {
+    background-color: rgb(255, 174, 0);
+    font-family: Chiller black;
+    font-size: 20px;
+}
+input:hover[id=tercero] {
+    background-color: rgb(114, 193, 196); 
+}
+::placeholder{
+    font-family: Comic Sans MS;
+    color: slategray;
+}
+input[id=regreso] {
+    background-color: rgb(255, 174, 0);
+    font-family: Chiller black;
+    font-size: 20px;
+}
+input:hover[id=regreso] {
+    background-color: rgb(114, 193, 196); 
+}
